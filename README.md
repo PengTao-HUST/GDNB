@@ -3,10 +3,14 @@ This is a light package to implement the GDNB (giant-component-based dynamic net
 algorithm, which is a data-driven and model-free method and can be used to detect the tipping points of 
 the phase transition in complex systems.
 
+---
+
 ## Install
 ```bash
 pip install gdnb
 ```
+
+---
 
 ## Demonstrate the intuition of GDNB with 2D Ising model
 ### 1. import packages
@@ -46,7 +50,8 @@ def plot_traj(traj, c='b'):
 
 fig, ax = plot_traj(traj)
 ``` 
-This figure shows that the average magnetization, defined by the average absolute value of all spins, changes over time.
+This figure shows that the average magnetizations, defined by the average absolute value of all spins, 
+change over time at different temperatures.
 
 ![traj](https://github.com/PengTao-HUST/GDNB/blob/master/figures/traj.png?raw=true)
 
@@ -140,5 +145,13 @@ fig, ax = plot_ising_maps(mydata)
 ![map](https://github.com/PengTao-HUST/GDNB/blob/master/figures/map.png?raw=true)
 As shown in this figure, The giant component (red dots) only appears at T=2.5.
 
+---
+
 ### Reproduce the results in the paper
-To reproduce the results in the paper, check the notebook files and results in [paper_example](https://github.com/PengTao-HUST/GDNB/tree/master/paper_example).
+To reproduce the results in the paper, check the notebook files and results 
+in [paper_examples](https://github.com/PengTao-HUST/GDNB/tree/master/paper_examples).
+
+---
+
+### License
+MIT License
