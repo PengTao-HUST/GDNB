@@ -1,6 +1,6 @@
 # GDNB
 This is a light package to implement the GDNB (giant-component-based dynamic network biomarker/marker) 
-algorithm, which is a data-driven and model-free method and can be used to detect the tipping points of 
+algorithm published in Communications Physics [Data-driven detection of critical points of phase transitions in complex systems](https://www.nature.com/articles/s42005-023-01429-0), which is a data-driven and model-free method and can be used to detect the tipping points of 
 the phase transition in complex systems.
 
 ---
